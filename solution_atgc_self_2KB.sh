@@ -12,7 +12,7 @@ while n>1:
 assert n==1
 v=bytes(t[::-1]).decode("ascii")
 assert len(v)%16==0 and all(v[i:i+2] in ("AG","TC") for i in range(0,len(v),2))
-b="".join("1" if v[i:i+2]=="TC" else "0" for i in range(0,len(b),2))
+b="".join("1" if v[i:i+2]=="TC" else "0" for i in range(0,len(v),2))
 z=bytes(int(b[i:i+8],2) for i in range(0,len(b),8))
 assert z==s and v==w and 2*(w.count("G")+w.count("C"))==len(w)
 print(json.dumps({"self_reconstructed":True,"gc":"1/2","source_bytes":len(s),"atgc_length":len(w),"godel_bits":bits},separators=(",",":")))' "$0"
