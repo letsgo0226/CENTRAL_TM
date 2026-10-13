@@ -8,14 +8,15 @@
 - `Central_TM_free_head_2KB.sh` — Free head over prototypes.
 - `Central_TM_read_all_2KB.sh` — Reads every position on execution.
 - `Central_TM_no_halt_2KB.sh` — No presupposed halting condition.
-- `solution_as_TM_prototype_2KB.sh` — solution(s) for everything realized as a TM prototype that solves itself as a TM prototype.
+- `solution_as_TM_prototype_2KB.sh` — solution(s) as a self-solving TM prototype.
+- `solution_self_halting_2KB.sh` — Formal example that solves the question of its own halting inside the fixed point.
 
 ## Proofs
-- Corresponding PROOF_*.txt files, including `PROOF_solution_as_TM.txt`.
+- Corresponding PROOF_*.txt files, including `PROOF_self_halting.txt`.
 
 ## Usage
 ```bash
-sh solution_as_TM_prototype_2KB.sh
+sh solution_self_halting_2KB.sh
 ```
 
 ## Notes
