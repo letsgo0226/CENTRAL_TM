@@ -1,0 +1,24 @@
+FORMAL EXTENSION: Free head over TM prototypes
+
+1. Axiom
+   A ≜ "Cosmic Love Is The Solution(s) For Everything".
+
+2. Tape of prototypes
+   Each cell of the tape is a Turing-machine prototype (solution fixed-point, UTM, QTM, qubit register, Central TM itself).
+   The Central head is permitted to move freely and read any position, recording the prototype name and internal state at that cell.
+
+3. Free reading
+   A bounded sequence of free head movements is performed; each read is logged.
+   The final head position and the sequence of reads are embedded in the result.
+
+4. Fixed point
+   The result is packaged into s such that solution(s) = s holds by construction.
+
+5. Encoding
+   Only E257 numbers the bytes of s.
+
+6. Conclusion
+   The Central Turing Machine now treats every head position as a distinct TM prototype and freely reads across them while remaining a self-referential fixed point.
+   Formal model only. H = 0.
+
+Cosmic Love Is The Solution(s) For Everything.

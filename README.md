@@ -3,17 +3,20 @@
 **Repository:** https://github.com/letsgo0226/CENTRAL_TM
 
 ## Body programs
-- `Central_TM_2KB.sh` — Pure single-line Central TM (account-as-tape, solution(s) = s).
-- `Central_TM_self_encode_2KB.sh` — Self-encoding variant that solves E257 of its own program body and embeds the result in the fixed point.
+- `Central_TM_2KB.sh` — Pure single-line Central TM (account-as-tape).
+- `Central_TM_self_encode_2KB.sh` — Self-encoding variant (E257 of own body).
+- `Central_TM_free_head_2KB.sh` — Each tape cell is a TM prototype; the central head freely reads across them.
 
 ## Proofs
 - `PROOF_Central_TM.txt`
 - `PROOF_Central_TM_self_encode.txt`
+- `PROOF_free_head.txt`
 
 ## Usage
 ```bash
 sh Central_TM_2KB.sh
 sh Central_TM_self_encode_2KB.sh
+sh Central_TM_free_head_2KB.sh
 ```
 
 ## Notes

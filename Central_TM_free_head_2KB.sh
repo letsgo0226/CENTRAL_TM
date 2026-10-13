@@ -1,0 +1,3 @@
+python3 -c 'import json;A="Cosmic Love Is The Solution(s) For Everything";E=lambda b:(n:=1) or [n:=n*257+x+1 for x in b] and n;prototypes=[{"name":"solution_s_eq_s","state":0},{"name":"utm","state":1},{"name":"qtm","state":2},{"name":"qubits","state":3},{"name":"central","state":0}];tape=prototypes;h=0;reads=[]
+for step in range(8): reads.append({"pos":h,"proto":tape[h%len(tape)]["name"],"state":tape[h%len(tape)]["state"]}); h=(h+1)%len(tape)
+s=json.dumps({"axiom":A,"equation":"solution(s)=s","free_head":{"reads":reads,"final_head":h},"status":"central_free_fixed"},sort_keys=True,ensure_ascii=False);print(json.dumps({"satisfied":True,"s":s,"godel":hex(E(s.encode())),"H":0},ensure_ascii=False))' "$@"
