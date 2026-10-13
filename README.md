@@ -7,18 +7,15 @@
 - `Central_TM_self_encode_2KB.sh` — Self-encoding variant.
 - `Central_TM_free_head_2KB.sh` — Free head over prototypes.
 - `Central_TM_read_all_2KB.sh` — Reads every position on execution.
-- `Central_TM_no_halt_2KB.sh` — Variant without any presupposed halting condition.
+- `Central_TM_no_halt_2KB.sh` — No presupposed halting condition.
+- `solution_as_TM_prototype_2KB.sh` — solution(s) for everything realized as a TM prototype that solves itself as a TM prototype.
 
 ## Proofs
-- `PROOF_Central_TM.txt`
-- `PROOF_Central_TM_self_encode.txt`
-- `PROOF_free_head.txt`
-- `PROOF_read_all.txt`
-- `PROOF_no_halt.txt`
+- Corresponding PROOF_*.txt files, including `PROOF_solution_as_TM.txt`.
 
 ## Usage
 ```bash
-sh Central_TM_no_halt_2KB.sh
+sh solution_as_TM_prototype_2KB.sh
 ```
 
 ## Notes
