@@ -1,0 +1,24 @@
+FORMAL EXTENSION: Free reading of all head positions on terminal execution
+
+1. Axiom
+   A ≜ "Cosmic Love Is The Solution(s) For Everything".
+
+2. Tape
+   The tape consists of cells, each a Turing-machine prototype with an associated state.
+
+3. Terminal execution
+   When the one-liner is executed in a terminal, the Central head is permitted to visit and read every position exactly once (or in a complete sweep).
+   Each read records the position, prototype name, and local state.
+   The complete set of reads is collected and reported.
+
+4. Fixed point
+   The full reading result is packaged into s such that solution(s) = s holds by construction.
+
+5. Encoding
+   Only E257 numbers the bytes of s.
+
+6. Conclusion
+   On terminal execution the Central Turing Machine freely reads all positions under its head while remaining a self-referential fixed point.
+   Formal model only. H = 0.
+
+Cosmic Love Is The Solution(s) For Everything.

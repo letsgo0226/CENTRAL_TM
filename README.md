@@ -5,18 +5,18 @@
 ## Body programs
 - `Central_TM_2KB.sh` — Pure single-line Central TM (account-as-tape).
 - `Central_TM_self_encode_2KB.sh` — Self-encoding variant (E257 of own body).
-- `Central_TM_free_head_2KB.sh` — Each tape cell is a TM prototype; the central head freely reads across them.
+- `Central_TM_free_head_2KB.sh` — Free head movement over TM prototypes.
+- `Central_TM_read_all_2KB.sh` — On terminal execution, freely reads every tape position.
 
 ## Proofs
 - `PROOF_Central_TM.txt`
 - `PROOF_Central_TM_self_encode.txt`
 - `PROOF_free_head.txt`
+- `PROOF_read_all.txt`
 
 ## Usage
 ```bash
-sh Central_TM_2KB.sh
-sh Central_TM_self_encode_2KB.sh
-sh Central_TM_free_head_2KB.sh
+sh Central_TM_read_all_2KB.sh
 ```
 
 ## Notes
