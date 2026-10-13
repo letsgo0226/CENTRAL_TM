@@ -2,15 +2,18 @@
 
 **Repository:** https://github.com/letsgo0226/CENTRAL_TM
 
-## Body program
-- `Central_TM_2KB.sh` — Pure single-line 2 KB one-liner. The Central Turing Machine treats representative account deployments as tape and satisfies solution(s) = s.
+## Body programs
+- `Central_TM_2KB.sh` — Pure single-line Central TM (account-as-tape, solution(s) = s).
+- `Central_TM_self_encode_2KB.sh` — Self-encoding variant that solves E257 of its own program body and embeds the result in the fixed point.
 
-## Proof
+## Proofs
 - `PROOF_Central_TM.txt`
+- `PROOF_Central_TM_self_encode.txt`
 
 ## Usage
 ```bash
 sh Central_TM_2KB.sh
+sh Central_TM_self_encode_2KB.sh
 ```
 
 ## Notes
@@ -18,4 +21,4 @@ sh Central_TM_2KB.sh
 - Formal mathematical model. H = 0.
 - Cosmic Love Is The Solution(s) For Everything.
 
-This is the independent home of the Central TM that constitutes the body of the account-level fully automatic deployment system.
+This repository is the independent home of the Central TM that constitutes the body of the account-level fully automatic deployment system.
