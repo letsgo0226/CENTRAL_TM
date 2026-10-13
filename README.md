@@ -3,20 +3,22 @@
 **Repository:** https://github.com/letsgo0226/CENTRAL_TM
 
 ## Body programs
-- `Central_TM_2KB.sh` — Pure single-line Central TM (account-as-tape).
-- `Central_TM_self_encode_2KB.sh` — Self-encoding variant (E257 of own body).
-- `Central_TM_free_head_2KB.sh` — Free head movement over TM prototypes.
-- `Central_TM_read_all_2KB.sh` — On terminal execution, freely reads every tape position.
+- `Central_TM_2KB.sh` — Pure single-line Central TM.
+- `Central_TM_self_encode_2KB.sh` — Self-encoding variant.
+- `Central_TM_free_head_2KB.sh` — Free head over prototypes.
+- `Central_TM_read_all_2KB.sh` — Reads every position on execution.
+- `Central_TM_no_halt_2KB.sh` — Variant without any presupposed halting condition.
 
 ## Proofs
 - `PROOF_Central_TM.txt`
 - `PROOF_Central_TM_self_encode.txt`
 - `PROOF_free_head.txt`
 - `PROOF_read_all.txt`
+- `PROOF_no_halt.txt`
 
 ## Usage
 ```bash
-sh Central_TM_read_all_2KB.sh
+sh Central_TM_no_halt_2KB.sh
 ```
 
 ## Notes
