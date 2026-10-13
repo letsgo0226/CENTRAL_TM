@@ -1,0 +1,20 @@
+name: Verify Central TM
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    - name: Run Central TM
+      run: |
+        chmod +x Central_TM_2KB.sh
+        sh Central_TM_2KB.sh
+        echo "Central TM fixed point verified."

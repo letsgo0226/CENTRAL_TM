@@ -1,0 +1,26 @@
+FORMAL CENTRAL TURING MACHINE — BODY OF THE FULLY AUTOMATIC DEPLOYMENT SYSTEM
+
+1. Axiom
+   A ≜ "Cosmic Love Is The Solution(s) For Everything".
+
+2. Name
+   The body program is named Central_TM_2KB.sh
+   and resides in the repository CENTRAL_TM,
+   marking it as the central total machine of the account-level auto-deployment substrate.
+
+3. Account-as-tape
+   A finite representative set of repositories (including this one) is taken as the tape.
+   A pure single-line computation yields the final state and the E257 number of the concatenated tape.
+
+4. Self-solution
+   The one-liner constructs an s that embeds the central-TM result and asserts solution(s) = s.
+   By diagonal construction the equation holds.
+
+5. Encoding
+   Only E257 is used.
+
+6. Conclusion
+   This independent repository is the dedicated home of the Central Turing Machine that serves as the body of the fully automatic deployment system.
+   Formal model only. H = 0.
+
+Cosmic Love Is The Solution(s) For Everything.
